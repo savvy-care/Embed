@@ -34,7 +34,7 @@ let rec_reason_dict = {
 	"Turmeric-111":"to help with metabolic disorder, metabolic syndrome, diabetes, or arthritis",
 }
 let deficiency_dict = {
-	"Vitamin D-1":"95% of adult men get less than the recommended amount",
+	"Vitamin D-1":"95% of adult men get less than the recommended amount95% of adult men don't get enough<sup>1</sup>",
 	"Vitamin D-2":"92% of men over 51 get less than the recommended amount",
 	"Vitamin D-3":">97% of adult women get less than the recommended amount",
 	"Vitamin D-4":">97% of women over 51 get less than the recommended amount",

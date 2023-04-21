@@ -7,11 +7,11 @@ const code = String(url.searchParams.get("code"));
 
 let sex = String(url.searchParams.get("s"));
 let age = Number(url.searchParams.get("a"));
-let mgr = String(url.searchParams.get("tr"));
-let fo_r = String(url.searchParams.get("for"));
-let b12r = String(url.searchParams.get("b12r"));
-let vcr = String(url.searchParams.get("vcr"));
-let tr = String(url.searchParams.get("tr"));
+let mgr = Number(url.searchParams.get("mgr"));
+let fo_r = Number(url.searchParams.get("for"));
+let b12r = Number(url.searchParams.get("b12r"));
+let vcr = Number(url.searchParams.get("vcr"));
+let tr = Number(url.searchParams.get("tr"));
 let rec_reason_dict = {
 	"Magnesium-1":"To help you cope with anxiety",
 	"Magnesium-10":"To help you improve your sleep",
@@ -28,10 +28,10 @@ let rec_reason_dict = {
 	"Vitamin C-2":"Because you reported a deficiency",
 	"Turmeric-1":"To help with metabolic disorder, metabolic syndrome, or diabetes",
 	"Turmeric-10":"To help with blood pressure or cholesterol",
-	"Turmeric-11":"to help with metabolic disorder, metabolic syndrome, or diabetes",
+	"Turmeric-11":"To help with metabolic disorder, metabolic syndrome, or diabetes",
 	"Turmeric-100":"To help with osteoarthritis",
 	"Turmeric-110":"To help with osteoarthritis, blood pressure, and cholesterol",
-	"Turmeric-111":"to help with metabolic disorder, metabolic syndrome, diabetes, or arthritis",
+	"Turmeric-111":"To help with metabolic disorder, metabolic syndrome, diabetes, or arthritis"
 }
 let deficiency_dict = {
 "Vitamin D-1":"95% of adult men don't get enough<sup>1</sup>",

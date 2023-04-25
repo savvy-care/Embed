@@ -94,12 +94,12 @@ let deficiency_dict = {
 "Turmeric-4":"See why we recommend"
 }
 let group = -1;
-if (sex=="m"){
+if (sex=="Male"){
 	group = 1;
 	if (age >=51){
 		group = 2;
 	}
-} if (sex =="f"){
+} if (sex =="Female"){
 	group = 3;
 	if (age >=51) {
 		group = 4;

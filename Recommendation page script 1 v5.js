@@ -119,7 +119,7 @@ function assessRecReason(product,xx){
 			xx.getElementsByClassName("rec-reason")[0].innerText = rec_reason_dict[String(product)+"-"+String(fo_r)];
 		}
 	}
-	if (product =="Vitamin B12"){
+	if (product =="Vitamin B12" || product=="Vitamin B Complex"){
 		if (b12r > 0) {
 			xx.getElementsByClassName("rec-reason")[0].innerText = rec_reason_dict[String(product)+"-"+String(b12r)];
 		}

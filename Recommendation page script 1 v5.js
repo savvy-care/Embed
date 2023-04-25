@@ -24,6 +24,8 @@ let rec_reason_dict = {
 	"Fish Oil-3":"To help with blood pressure or a heart health condition",
 	"Vitamin B12-1":"Because vegan and vegetarian diets lack B12",
 	"Vitamin B12-2":"Because you reported a deficiency",
+	"Vitamin B Complex-1":"Because vegan and vegetarian diets lack B12",
+	"Vitamin B Complex-2":"Because you reported a deficiency",
 	"Vitamin C-1":"Because smokers often have low vitamin C",
 	"Vitamin C-2":"Because you reported a deficiency",
 	"Turmeric-1":"To help with metabolic disorder, metabolic syndrome, or diabetes",
